@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# OSMnx & キャッシュ類（重いのでコミットしない）
+osmnx-cache/
+cache/
+*.sqlite
+*.gpkg
+*.geojson  # ←出力をコミットしたくないなら
+ab_curvy_route_map.html
+route_nodes.csv
+route_nodes.geojson

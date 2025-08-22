@@ -1,0 +1,17 @@
+streamlit==1.37.1
+streamlit-folium==0.20.0
+folium==0.17.0
+
+# ルーティング系
+networkx==3.2.1
+numpy==1.26.4
+shapely==2.0.4
+
+# OSMnx とその依存
+osmnx==1.9.3
+geopandas==0.14.4
+pyproj==3.6.1
+fiona==1.9.6
+
+# 画像/ユーティリティ（任意）
+requests==2.32.3
